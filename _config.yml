@@ -1,0 +1,121 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://nqloc.github.io
+date_format: "ordinal"
+title: Loc's blog
+subtitle: "Loc's blog"
+description: "Loc's blog"
+keywords: Loc Nguyen, www.nqloc, nqloc
+timezone: Asia/Ho_Chi_Minh
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: nqloc
+organization: 
+organization_url: 
+github_username: nqloc
+location: HCM, Vietnam
+email: www.nqloc@gmail.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /categories/
+    label: Categories
+
+#   -
+#     href: /archives/
+#     label: Archives
+
+  -
+    href: /wiki/
+    label: Wiki
+
+  -
+    href: /links/
+    label: Links
+
+  -
+    href: /about/
+    label: About
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: nqloc/nqloc.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: mzlogin
+    repo: blog-comments
+    oauth:
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: mzlogin
+    repo: blog-comments
+    clientID: d2e1cbbd298958076462
+    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    fulltext: false
+    limit: 10
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
