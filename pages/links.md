@@ -5,7 +5,7 @@ description: Links
 keywords: links
 comments: true
 menu: links
-permalink: /links/
+permalink: /links
 ---
 
 > God made relatives. Thank God we can choose our friends.

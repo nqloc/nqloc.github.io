@@ -5,7 +5,7 @@ description: About me
 keywords: about me
 comments: true
 menu: about
-permalink: /about/
+permalink: /about
 ---
 
 我是马壮，码而生，码而立。

@@ -5,7 +5,7 @@ description: Categories
 keywords: categories
 comments: false
 menu: categories
-permalink: /categories/
+permalink: /categories
 ---
 
 <section class="container posts-content">

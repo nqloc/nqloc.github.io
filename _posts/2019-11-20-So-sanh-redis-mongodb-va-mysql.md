@@ -1,8 +1,8 @@
 ---
 layout: post
 title: So sánh Redis, MySQL và MongoDB
-category: Redis
-tags: [Redis]
+category: Redis, XXX
+tags: [Redis, XXX]
 ---
 
 Redis là 1 hệ thống lưu trữ key-value rất mạnh mẽ và phổ biến hiện nay.

@@ -5,7 +5,7 @@ description: Wiki page
 keywords: Bookmark, Wiki
 comments: false
 menu: wiki
-permalink: /wiki/
+permalink: /wiki
 ---
 
 > Useful wikis

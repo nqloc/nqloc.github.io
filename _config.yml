@@ -31,19 +31,19 @@ navs:
     label: Home
 
   -
-    href: /categories/
+    href: /categories
     label: Categories
 
   -
-    href: /archives/
+    href: /archives
     label: Archives
 
   -
-    href: /wiki/
+    href: /wiki
     label: Wiki
 
   -
-    href: /links/
+    href: /links
     label: Links
 
   -
@@ -51,7 +51,7 @@ navs:
     label: Open-source
 
   -
-    href: /about/
+    href: /about
     label: About
 
 # ---------------- #
