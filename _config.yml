@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: Categories
 
-#   -
-#     href: /archives/
-#     label: Archives
+  -
+    href: /archives/
+    label: Archives
 
   -
     href: /wiki/
@@ -45,6 +45,10 @@ navs:
   -
     href: /links/
     label: Links
+
+  -
+    href: /open-source/
+    label: Open-source
 
   -
     href: /about/
