@@ -1,27 +1,23 @@
 - sitename: GitHub
-  name: mzlogin
-  url: https://github.com/mzlogin
-
-- sitename: 掘金
-  name: mzlogin
-  url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
+  name: nqloc
+  url: https://github.com/nqloc
 
 - sitename: LinkedIn
-  name: mazhuang
-  url: https://www.linkedin.com/in/mazhuang
+  name: nqloc
+  url: https://www.linkedin.com/in/nqloc
 
-- sitename: 博客
-  name: 码志
-  url: http://mazhuang.org
+- sitename: Blog
+  name: nqloc
+  url: https://nqloc.github.io
 
-- sitename: 微博
-  name: mzlogin
-  url: http://weibo.com/mzlogin
+- sitename: Facebook
+  name: www.nqloc
+  url: https://www.facebook.com/www.nqloc
 
-- sitename: 知乎
-  name: mzlogin
-  url: http://www.zhihu.com/people/mzlogin
+- sitename: Skype
+  name: live:www.nqloc
+  url: https://join.skype.com/invite/nszppGBPdPSv
 
-- sitename: 豆瓣
-  name: 壮哥不胖
-  url: http://www.douban.com/people/freedim
+- sitename: Gmail
+  name: www.nqloc
+  url: mailto:www.nqloc@gmail.com

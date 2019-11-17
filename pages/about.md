@@ -8,13 +8,11 @@ menu: about
 permalink: /about
 ---
 
-我是马壮，码而生，码而立。
+My name is Loc。
 
-仰慕「优雅编码的艺术」。
+I am a developer。
 
-坚信熟能生巧，努力改变人生。
-
-## 联系
+## Contact me
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})

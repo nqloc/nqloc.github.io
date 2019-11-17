@@ -43,10 +43,6 @@ navs:
     label: Wiki
 
   -
-    href: /links
-    label: Links
-
-  -
     href: /open-source
     label: Open-source
 
