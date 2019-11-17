@@ -2,7 +2,7 @@
 layout: post
 title: WebDAV là gì
 category: WebDAV
-tags: [WebDAV, Test]
+tags: [WebDAV]
 ---
 
 WebDav is an extension of the Hypertext Transfer Protocol (HTTP) that allows clients to perform remote Web content authoring operations.
