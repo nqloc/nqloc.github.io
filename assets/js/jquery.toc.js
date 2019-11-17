@@ -1,10 +1,9 @@
 // https://github.com/ghiculescu/jekyll-table-of-contents
-// Updated by http://mazhuang.org
 (function($){
   $.fn.toc = function(options) {
     var defaults = {
       noBackToTopLinks: false,
-      title: '文章目录',
+      title: 'Article directory',
       minimumHeaders: 2,
       headers: 'h1, h2, h3, h4, h5, h6',
       listType: 'ul', // values: [ol|ul]
