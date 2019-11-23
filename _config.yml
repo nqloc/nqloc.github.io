@@ -123,10 +123,10 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     fulltext: false
-    limit: 10
+    limit: 15
 
 # ---------------- #
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-153150119-1
