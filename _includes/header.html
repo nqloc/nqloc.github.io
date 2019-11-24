@@ -75,11 +75,11 @@
             if (x === 'dark') {
                 localStorage.setItem("theme", "light");
                 document.getElementById("main").classList.remove("dark");
-                document.getElementById("darkLight").src = "dark.png";
+                document.getElementById("darkLight").src = "/assets/images/dark.png";
             } else {
                 localStorage.setItem("theme", "dark");
                 document.getElementById("main").classList.add("dark");
-                document.getElementById("darkLight").src = "light.png";
+                document.getElementById("darkLight").src = "/assets/images/light.png";
             }
         }
 
@@ -87,10 +87,10 @@
             var theme = localStorage.getItem('theme');
             if (theme === 'dark') {
                 document.getElementById("main").classList.add("dark");
-                document.getElementById("darkLight").src = "light.png";
+                document.getElementById("darkLight").src = "/assets/images/light.png";
             } else {
                 localStorage.setItem("theme", "light");
-                document.getElementById("darkLight").src = "dark.png";
+                document.getElementById("darkLight").src = "/assets/images/dark.png";
             }
         });
     </script>
