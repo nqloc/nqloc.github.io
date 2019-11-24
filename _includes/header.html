@@ -75,10 +75,12 @@
             if (x === 'dark') {
                 localStorage.setItem("theme", "light");
                 document.getElementById("main").classList.remove("dark");
+                document.getElementsByClassName("repo-list-description").classList.remove("dark");
                 document.getElementById("darkLight").src = "/assets/images/dark.png";
             } else {
                 localStorage.setItem("theme", "dark");
                 document.getElementById("main").classList.add("dark");
+                document.getElementsByClassName("repo-list-description").classList.add("dark");
                 document.getElementById("darkLight").src = "/assets/images/light.png";
             }
         }
@@ -87,6 +89,7 @@
             var theme = localStorage.getItem('theme');
             if (theme === 'dark') {
                 document.getElementById("main").classList.add("dark");
+                document.getElementsByClassName("repo-list-description").classList.add("dark");
                 document.getElementById("darkLight").src = "/assets/images/light.png";
             } else {
                 localStorage.setItem("theme", "light");

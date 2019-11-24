@@ -12,7 +12,7 @@
     -webkit-backface-visibility: hidden
 }
 
-body.dark {
+.markdown-body.dark,body.dark,.site-header-nav-item.dark {
     background: #545454;
     color: #efefef;
 }
