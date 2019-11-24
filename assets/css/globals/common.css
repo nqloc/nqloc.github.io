@@ -12,13 +12,17 @@
     -webkit-backface-visibility: hidden
 }
 
-.markdown-body.dark,body.dark,.repo-list-description.dark {
+.markdown-body.dark,body.dark,.repo-list-description.dark,.lead.dark {
     background: #545454;
     color: #efefef;
 }
 
 .site-header-nav-item.dark {
     color: #efefef;
+}
+
+.posts-list-name.dark {
+    color: #4183c4;
 }
 
 @font-face {

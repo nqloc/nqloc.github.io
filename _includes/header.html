@@ -78,6 +78,8 @@
                 $(".repo-list-description").removeClass("dark");;
                 $(".markdown-body").removeClass("dark");
                 $(".site-header-nav-item").removeClass("dark");
+                $(".posts-list-name").removeClass("dark");
+                $(".lead").removeClass("dark");
                 document.getElementById("darkLight").src = "/assets/images/dark.png";
             } else {
                 localStorage.setItem("theme", "dark");
@@ -85,6 +87,8 @@
                 $(".repo-list-description").addClass("dark");
                 $(".markdown-body").addClass("dark");
                 $(".site-header-nav-item").addClass("dark");
+                $(".posts-list-name").addClass("dark");
+                $(".lead").addClass("dark");
                 document.getElementById("darkLight").src = "/assets/images/light.png";
             }
         }
@@ -96,6 +100,8 @@
                 $(".repo-list-description").addClass("dark");
                  $(".markdown-body").addClass("dark");
                  $(".site-header-nav-item").addClass("dark");
+                 $(".posts-list-name").addClass("dark");
+                 $(".lead").addClass("dark");
                 document.getElementById("darkLight").src = "/assets/images/light.png";
             } else {
                 localStorage.setItem("theme", "light");
