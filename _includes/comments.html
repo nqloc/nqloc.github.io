@@ -12,7 +12,7 @@
     var disqus_loaded = false;
     $(function() {
         $('.show_disqus_comment').on('click', function() { // DON'T EDIT BELOW THIS LINE
-            $(this).html('加载中...');
+            $(this).html('Loading...');
             var that = this;
             if (!disqus_loaded) {
                 var d = document, s = d.createElement('script');
@@ -39,7 +39,6 @@
     {% when 'disqus' %}
       {% if site.disqus and site.disqus.username %}
         {% assign load_disqus = true %}
-        <!-- Disqus Protection, see https://github.com/mzlogin/mzlogin.github.io/issues/2 -->
         {% if site.disqus.username == 'disqus_2fTSrpS4ME' %}
           {% assign load_disqus = false %}
           {% if site.url contains 'nqloc.github.io' %}

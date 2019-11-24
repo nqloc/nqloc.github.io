@@ -15,8 +15,6 @@ permalink: /open-source
         <p class="lead">I have <span class="repo-count">{{ sorted_repos.size }}</span> projects on Github</p>
     </header>
     <div class="repo-list">
-        <!-- Check here for github metadata -->
-        <!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
         {% for repo in sorted_repos %}
         <a href="{{ repo.html_url }}" target="_blank" class="one-third-column card text-center">
             <div class="thumbnail">
