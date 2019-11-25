@@ -91,12 +91,6 @@ mathjax: true
 ##### H5
 ###### H6
 ```
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
 
 Tips: `#` Add spaces to the middle of the title.
 
