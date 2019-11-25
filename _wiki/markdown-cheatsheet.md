@@ -18,12 +18,12 @@ mathjax: true
 ### Hyperlinks
 
 ```
-[Trust-ing](https://nqloc.github.io)
+[ClickMe](https://nqloc.github.io)
 
 <https://nqloc.github.io>
 ```
 
-[Trust-ing](https://nqloc.github.io)  
+[ClickMe](https://nqloc.github.io)  
 
 <https://nqloc.github.io>
 
@@ -142,15 +142,34 @@ print 'Hello, World!'
 
 ### Emoji
 
+```
+:camel:
+:blush:
+:smile:
+```
+
 :camel:
 :blush:
 :smile:
 
 ### Footnotes
 
+```
+This is a text with footnote[^1].
+```
+
 This is a text with footnote[^1].
 
 ### mermaid
+
+```
+<div class="mermaid">
+sequenceDiagram
+    Alice-->>John: Hello John, how are you?
+    John-->>Alice: Great!
+</div>
+
+```
 
 <div class="mermaid">
 sequenceDiagram
@@ -160,6 +179,15 @@ sequenceDiagram
 
 ### Sequence
 
+```
+```sequence
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+```
+
 ```sequence
 Andrew->China: Says Hello
 Note right of China: China thinks\nabout it
@@ -168,6 +196,22 @@ Andrew->>China: I am good thanks!
 ```
 
 ### Flowchart
+
+```
+```flow
+st=>start: Start
+e=>end
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes
+or No?
+io=>inputoutput: catch something...
+
+st->op1->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op1
+```
+```
 
 ```flow
 st=>start: Start
@@ -183,7 +227,15 @@ cond(yes)->io->e
 cond(no)->sub1(right)->op1
 ```
 
-### mathjax
+### Mathjax
+
+```
+When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+[^1]: Here is the footnote 1 definition.
+```
 
 When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
 
