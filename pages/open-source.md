@@ -20,9 +20,7 @@ permalink: /open-source/
             <div class="thumbnail">
                 <div class="card-image geopattern" data-pattern-id="{{ repo.name }}">
                     <div class="card-image-cell">
-                        <h3 class="card-title">
-                            {{ repo.name }}
-                        </h3>
+                        <h3 class="card-title">{{ repo.name }}</h3>
                     </div>
                 </div>
                 <div class="caption">
