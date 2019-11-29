@@ -8,7 +8,7 @@ menu: about
 permalink: /about/
 ---
 
-My name is Loc。
+My name is Loc nguyen。
 
 I am a developer。
 
