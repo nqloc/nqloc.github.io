@@ -5,7 +5,7 @@ description: archives
 keywords: archives
 comments: false
 menu: archives
-permalink: /archives
+permalink: /archives/
 ---
 
 <section class="container posts-content">

@@ -5,7 +5,7 @@ description: About me
 keywords: about me
 comments: true
 menu: about
-permalink: /about
+permalink: /about/
 ---
 
 My name is Loc。

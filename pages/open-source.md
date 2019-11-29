@@ -3,7 +3,7 @@ layout: default
 title: Open Source Projects
 keywords: open-source, github
 description: Open Source Projects
-permalink: /open-source
+permalink: /open-source/
 ---
 
 {% if site.github.public_repositories != null %}

@@ -5,10 +5,10 @@ description: Tools page
 keywords: Tools
 comments: false
 menu: tools
-permalink: /tools
+permalink: /tools/
 ---
 
-> Useful wikis
+> Useful Tools
 
 <ul class="listing">
 {% for tools in site.tools %}
