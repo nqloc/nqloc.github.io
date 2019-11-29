@@ -1,9 +1,9 @@
 ---
 layout: tools
 title: Formatter
-categories: formater
-description: Formatter
-keywords: Formatter
+categories: [Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter]
+description: Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter, Json parser, Xml parser, CSS parser, SQL parser
+keywords: Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter, Json parser, Xml parser, CSS parser, SQL parser
 ---
 
 <div style="font-family: monospace;">
@@ -14,7 +14,7 @@ keywords: Formatter
       <a href="javascript:void(0);" id="sql" onclick="switchParser('sql');">SQL parser</a>
     </h3>
     <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
-    <div class="row">
+    <div class="row" style="margin: 5px 0;">
       <button class="btn-outline" onclick="parseData()">Format</button>
       <button class="btn-outline" onclick="compressData()">Minify</button>
       <button class="btn-outline" onclick="copyData('input')" data-toggle="tooltip" title="Copy to clipboard">Copy Input</button>
@@ -22,7 +22,7 @@ keywords: Formatter
       <button class="btn-outline" onclick="clearAll()">Clear All</button>
     </div>
 	<textarea lang="xml" readonly class="row" rows="12" id="output" name="output" placeholder="Output" style="white-space: pre; width: 100%;"></textarea>
-    <div class="row">
+    <div class="row" style="margin: 5px 0;">
       <button class="btn-outline" onclick="copyData('output')" data-toggle="tooltip" title="Copy to clipboard">Copy Output</button>
       <button class="btn-outline" onclick="clearOutput()">Clear Output</button>
     </div>
