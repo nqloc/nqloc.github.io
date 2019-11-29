@@ -43,6 +43,10 @@ navs:
     label: Wiki
 
   -
+    href: /tools
+    label: Tools
+
+  -
     href: /open-source
     label: Open-source
 
@@ -80,6 +84,9 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
+    tools:
+        output: true
+        permalink: /tools/:path/
 
 repository: nqloc/nqloc.github.io
 
