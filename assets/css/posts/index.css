@@ -68,14 +68,14 @@
     font-weight: normal;
     font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
     line-height: inherit;
-    color: #666;
+    color: #4183c4;
 }
 
 .posts-list-meta {
     font-size: 12px;
     font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
     line-height: 2;
-    color: #555;
+    color: #888;
     background: #fff;
 }
 
