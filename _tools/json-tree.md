@@ -75,6 +75,8 @@ keywords: Json Tree, Json Pretty
       <span id="output"></span>
     </div>
 </div>
+
+<script type="text/javascript" src="{{ site.url }}/assets/js/underscore-min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/backbone-min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/pretty-json-min.js"></script>
 <script type="text/javascript">
