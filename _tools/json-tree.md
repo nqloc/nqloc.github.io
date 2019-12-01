@@ -60,7 +60,7 @@ keywords: Json Tree, Json Pretty
 
 <div style="font-family: monospace;">
 	<h3 class="row">
-      <a href="javascript:void(0);" id="json" onclick="switchParser('json');">Json Tree</a>| 
+      <a href="javascript:void(0);" id="json" onclick="switchParser('json');">Json Tree</a>
     </h3>
     <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
@@ -76,6 +76,7 @@ keywords: Json Tree, Json Pretty
     </div>
 </div>
 
+<script type="text/javascript" src="{{ site.url }}/assets/js/backbone-min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/pretty-json-min.js"></script>
 <script type="text/javascript">
   const TYPES = [ 'json'];
