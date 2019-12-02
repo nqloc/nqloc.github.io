@@ -99,30 +99,22 @@ comments_provider: gitalk
 # https://disqus.com
 disqus:
     username: disqus_2fTSrpS4ME
+    
 # https://imsun.net/posts/gitment-introduction/
-# gitment:
-#     owner: mzlogin
-#     repo: blog-comments
-#     oauth:
-#         client_id: d2e1cbbd298958076462
-#         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 gitment:
     owner: nqloc
     repo: nqloc.github.io
     oauth:
         client_id: 3ef5e14b3792fb7f8760
         client_secret: 291604fe977edca23ef0c3706faed10ba4bb48ac
+
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: nqloc
     repo: nqloc.github.io
     clientID: 3ef5e14b3792fb7f8760
     clientSecret: 291604fe977edca23ef0c3706faed10ba4bb48ac
-# gitalk:
-#     owner: mzlogin
-#     repo: blog-comments
-#     clientID: d2e1cbbd298958076462
-#     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+
 lazy_load_disqus : false
 
 # ---------------- #

@@ -181,10 +181,10 @@ sequenceDiagram
 
 
 ```sequence
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
+Andrew->VietNam: Says Hello
+Note right of VietNam: China thinks\nabout it
+VietNam-->Andrew: How are you?
+Andrew->>VietNam: I am good thanks!
 ```
 
 ### Flowchart
