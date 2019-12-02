@@ -736,7 +736,7 @@ pre {
   display: none;
 }
 
-textarea #input, textarea #output {
+textarea#input, textarea#output {
   background: url(https://i.imgur.com/2cOaJ.png);
   background-attachment: local;
   background-repeat: no-repeat;
