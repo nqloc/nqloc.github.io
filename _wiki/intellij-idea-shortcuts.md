@@ -10,8 +10,8 @@ keywords: IDEA, IntelliJ, Shortcuts
 Some useful shortcuts for IntelliJ IDEA
 
 ### Basic Editing I
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | END | Move to line end |
 | HOME | Move to line start |
 | ctrl+Y | Delete current line |
@@ -23,8 +23,8 @@ Some useful shortcuts for IntelliJ IDEA
 | alt+ctrl+I | Auto-indent lines |
 
 ### Basic Editing II
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | shift+ctrl+RIGHT | Select next word |
 | shift+ctrl+LEFT | Select previous word |
 | ctrl+END | Move to text end |
@@ -36,8 +36,8 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+ctrl+[ | Select to code block start |
 
 ### Basic Editing III
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | shift+ctrl+V | Paste from history |
 | ctrl+M | Scroll to center |
 | shift+END | Select to line end |
@@ -50,8 +50,8 @@ Some useful shortcuts for IntelliJ IDEA
 | ctrl+↵ | Split line |
 
 ### Advanced Editing I
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | ctrl+J | Insert live template |
 | alt+/ | Cycle through names in current visible scope |
 | alt+ctrl+[SPACE] | Complete class name and import statement |
@@ -63,8 +63,8 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+TAB | Move to previous template variable |
 
 ### Advanced Editing II
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | shift+alt+ctrl+H | Show the highlighting level pop-up window |
 | ctrl+Q | Show table data |
 | ctrl+P | Show params of method at caret |
@@ -76,8 +76,8 @@ Some useful shortcuts for IntelliJ IDEA
 | ctrl+Q | Quick documentation |
 
 ### Source Navigation I
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | ctrl+N | Navigate to class |
 | shift+ctrl+N | Navigate to file |
 | ctrl+G | Navigate to line number |
@@ -92,8 +92,8 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+F2 | Navigate to previous error/warning |
 
 ### Source Navigation II
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | F7 | Move to next difference |
 | shift+F7 | Move to previous difference |
 | ctrl+F12 | File structure pop-up |
@@ -108,16 +108,16 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+ctrl+BACKSPACE | Move to last edit location |
 
 ### Code Folding
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | ctrl+= | Expand current method, class, or block |
 | shift+ctrl+= | Expand all folded blocks |
 | ctrl+. | Fold or expand current selection |
 | shift+ctrl+. | Fold current code block |
 
 ### Debugging
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | shift+F9 | Debug |
 | shift+alt+F9 | Choose configuration and debug |
 | F8 | Step over |
@@ -132,8 +132,8 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+F2 | Stop program |
 
 ### Running
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | ctrl+F9 | Make project |
 | shift+F10 | Run |
 | shift+alt+F10 | Choose configuration and run |
@@ -143,8 +143,8 @@ Some useful shortcuts for IntelliJ IDEA
 | alt+ctrl+F8 | Quick evaluate expression |
 
 ### Find And Replace
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | ctrl+F | Find |
 | ctrl+R | Replace |
 | ctrl+L | Find next |
@@ -154,15 +154,15 @@ Some useful shortcuts for IntelliJ IDEA
 | alt+F7 | Find usages |
 
 ### Bookmarks
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | ctrl+F11 | Toggle bookmark with mnemonic |
 | ctrl+3 | Go to bookmark number 3 |
 | ctrl+7 | Go to bookmark number 7 |
 
 ### Refactoring
-| Shortcuts     | Description   |
-| ------------- | ------------- |
+| Shortcuts | Description |
+| ------- | ------- |
 | shift+F6 | Rename selected statement |
 | F5 | Copy selected class/file |
 | shift+F5 | Clone selected class |
