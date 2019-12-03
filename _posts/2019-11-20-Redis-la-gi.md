@@ -79,6 +79,8 @@ Khác với RDMS như MySQL, hay PostgreSQL, Redis không có table (bảng). Re
 
 **ZSET (sorted set)**: Là 1 danh sách, trong đó mỗi phần tử là map của 1 string (member) và 1 floating-point number (score), danh sách được sắp xếp theo score này. Redis hỗ trợ thao tác thêm, đọc, xóa từng phần tử, lấy ra các phần tử dựa theo range của score hoặc của string.
 
+![](/images/posts/redis/redis-data-structure-types.jpeg)
+
 ## Kết luận
 
 Redis là một sự lựa chọn tuyệt vời khi ta cần đến một server lưu trữ dữ liệu đòi hỏi tính mở rộng cao (scaleable) và chia sẻ bởi nhiều tiến trình, nhiều ứng dụng và nhiều server khác nhau. Chỉ riêng cơ chế tương tác giữa các tiến trình đã cực kỳ khó nhằn rồi. Do đó việc ta có thể tương tác cross-platform, cross-server, và cross-application đã làm Redis trở thành một lựa chọn đúng đắn cho rất rất nhiều công việc khác nhau. Tốc độ cực cao của Redis cũng có thể được lợi dụng để làm caching layer
