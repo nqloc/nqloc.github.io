@@ -5,11 +5,11 @@ category: Redis
 tags: [Redis]
 ---
 
-Redis là 1 hệ thống lưu trữ key-value rất mạnh mẽ và phổ biến hiện nay.
+> Redis là 1 hệ thống lưu trữ key-value rất mạnh mẽ và phổ biến hiện nay.
 
-Redis nổi bật bởi việc hỗ trợ nhiều cấu trúc dữ liệu cơ bản(hash, list, set, sorted set, string), giúp việc thao tác với dữ liệu tốt hơn các hệ thống cũ như memcached rất nhiều.
+> Redis nổi bật bởi việc hỗ trợ nhiều cấu trúc dữ liệu cơ bản(hash, list, set, sorted set, string), giúp việc thao tác với dữ liệu tốt hơn các hệ thống cũ như memcached rất nhiều.
 
-Bên cạnh lưu trữ key-value trên RAM giúp tối ưu performance, redis còn có cơ chế sao lưu dữ liệu trên đĩa cứng cho phép phục hồi dữ liệu khi gặp sự cố.
+> Bên cạnh lưu trữ key-value trên RAM giúp tối ưu performance, redis còn có cơ chế sao lưu dữ liệu trên đĩa cứng cho phép phục hồi dữ liệu khi gặp sự cố.
 
 ## Khái quát
 
