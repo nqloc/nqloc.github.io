@@ -6,7 +6,6 @@ description: IntelliJ IDE Shortcuts
 keywords: IDEA, IntelliJ, Shortcuts
 ---
 
-## IntelliJ IDE Shortcuts
 > Some useful shortcuts for IntelliJ IDEA
 
 ### Basic Editing I
