@@ -10,6 +10,7 @@ keywords: IDEA, IntelliJ, Shortcuts
 Some useful shortcuts for IntelliJ IDEA
 
 ### Find And Replace
+
 | Shortcuts | Description |
 | ------- | ------- |
 | ctrl+F | Find |
