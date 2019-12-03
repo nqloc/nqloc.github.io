@@ -7,9 +7,9 @@ keywords: IDEA, IntelliJ, Shortcuts
 ---
 
 ## intellij-idea-cheat-sheet
-Some useful shortcuts for IntelliJ IDEA
+> Some useful shortcuts for IntelliJ IDEA
 
-### Find And Replace
+### Find And Replace 1
 
 | Shortcuts | Description |
 | ------- | ------- |
