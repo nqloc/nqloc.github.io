@@ -6,10 +6,10 @@ description: IntelliJ IDE Shortcuts
 keywords: IDEA, IntelliJ, Shortcuts
 ---
 
-# intellij-idea-cheat-sheet
+## intellij-idea-cheat-sheet
 Some useful shortcuts for IntelliJ IDEA
 
-## Basic Editing I
+### Basic Editing I
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | END | Move to line end |
@@ -22,7 +22,7 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+TAB | Unindent selection |
 | alt+ctrl+I | Auto-indent lines |
 
-## Basic Editing II
+### Basic Editing II
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | shift+ctrl+RIGHT | Select next word |
@@ -35,7 +35,7 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+ctrl+] | Select to code block end |
 | shift+ctrl+[ | Select to code block start |
 
-## Basic Editing III
+### Basic Editing III
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | shift+ctrl+V | Paste from history |
@@ -49,7 +49,7 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+ctrl+J | Join lines |
 | ctrl+↵ | Split line |
 
-## Advanced Editing I
+### Advanced Editing I
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | ctrl+J | Insert live template |
@@ -62,7 +62,7 @@ Some useful shortcuts for IntelliJ IDEA
 | TAB | Move to next template variable |
 | shift+TAB | Move to previous template variable |
 
-## Advanced Editing II
+### Advanced Editing II
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | shift+alt+ctrl+H | Show the highlighting level pop-up window |
@@ -75,7 +75,7 @@ Some useful shortcuts for IntelliJ IDEA
 | alt+ctrl+J | Surround with live template |
 | ctrl+Q | Quick documentation |
 
-## Source Navigation I
+### Source Navigation I
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | ctrl+N | Navigate to class |
@@ -91,7 +91,7 @@ Some useful shortcuts for IntelliJ IDEA
 | F2 | Navigate to next error/warning |
 | shift+F2 | Navigate to previous error/warning |
 
-## Source Navigation II
+### Source Navigation II
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | F7 | Move to next difference |
@@ -107,7 +107,7 @@ Some useful shortcuts for IntelliJ IDEA
 | alt+ctrl+DOWN | Navigate to next occurrence |
 | shift+ctrl+BACKSPACE | Move to last edit location |
 
-## Code Folding
+### Code Folding
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | ctrl+= | Expand current method, class, or block |
@@ -115,7 +115,7 @@ Some useful shortcuts for IntelliJ IDEA
 | ctrl+. | Fold or expand current selection |
 | shift+ctrl+. | Fold current code block |
 
-## Debugging
+### Debugging
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | shift+F9 | Debug |
@@ -131,7 +131,7 @@ Some useful shortcuts for IntelliJ IDEA
 | F9 | Resume program |
 | shift+F2 | Stop program |
 
-## Running
+### Running
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | ctrl+F9 | Make project |
@@ -142,7 +142,7 @@ Some useful shortcuts for IntelliJ IDEA
 | alt+F8 | Evaluate expression |
 | alt+ctrl+F8 | Quick evaluate expression |
 
-## Find And Replace
+### Find And Replace
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | ctrl+F | Find |
@@ -153,14 +153,14 @@ Some useful shortcuts for IntelliJ IDEA
 | shift+ctrl+R | Replace in path |
 | alt+F7 | Find usages |
 
-## Bookmarks
+### Bookmarks
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | ctrl+F11 | Toggle bookmark with mnemonic |
 | ctrl+3 | Go to bookmark number 3 |
 | ctrl+7 | Go to bookmark number 7 |
 
-## Refactoring
+### Refactoring
 | Shortcuts     | Description   |
 | ------------- | ------------- |
 | shift+F6 | Rename selected statement |
