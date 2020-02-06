@@ -6,12 +6,12 @@ description: Java Coding Guideline
 keywords: Java, Coding Guideline, Java Coding Guideline
 ---
 
+# Java Coding Guideline
+
 **Table Of Contents**
 
 * TOC
 {:toc}
-
-# Java Coding Guideline
 
 ## File Organization
 
@@ -26,6 +26,12 @@ keywords: Java, Coding Guideline, Java Coding Guideline
    * Class and Interface declarations
 
 ## Indentation
+
+1. Four spaces should be used as the unit of indentation
+
+2. Tabs must be set exactly every 4 spaces
+
+3. Avoid line longer than 140 characters
 
 ## Comments
 
