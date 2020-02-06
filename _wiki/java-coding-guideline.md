@@ -13,28 +13,28 @@ keywords: Java, Coding Guideline, Java Coding Guideline
 
 # Java Coding Guideline
 
-##  File Organization
+## File Organization
 
 1. Should be avoided the file longer than 900 line
 
 2. Java source files have the following ordering:
 
-* Beginning comments
+   * Beginning comments
 
-* Package and import statements 
+   * Package and import statements 
 
-* Class and Interface declarations
+   * Class and Interface declarations
 
-##  Indentation
+## Indentation
 
-##  Comments
+## Comments
 
-##  Declaration
+## Declaration
 
-##  Statements
+## Statements
 
-##  White Space
+## White Space
 
-##  Naming Conventions
+## Naming Conventions
 
-##  Programming Practices
+## Programming Practices
