@@ -6,8 +6,6 @@ description: Java Coding Guideline
 keywords: Java, Coding Guideline, Java Coding Guideline
 ---
 
-# Java Coding Guideline
-
 **Table Of Contents**
 
 * TOC
