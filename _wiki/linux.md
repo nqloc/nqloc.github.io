@@ -52,3 +52,72 @@ scp -vrC ~/Downloads root@192.168.1.3:/root/Downloads
 ### CP (Copy)
 
 ### MV (Move)
+
+### Find
+
+#### Search for all files in a specific directory
+
+```sh
+$ find /path/to/file/
+```
+
+or search files in the current directory
+
+```sh
+$ find .
+```
+
+To search for a file named e.g “softwares” under current directory
+
+```sh
+$ find . -iname filename
+```
+
+#### Search using a wildcard
+
+```sh
+$ find /path/to/file/ -iname filename*
+```
+
+#### Search based on date and time
+
+mtime (Modification time): when the file’s content was modified last time.
+atime (Access time): when the file was accessed last time.
+ctime (Change time): when the file attributes were modified last time.
+
+Search for files in a current directory that were modified less than 2 days ago
+
+```sh
+$ find . -mtime -2
+```
+
+Search for files that were accessed less than 2 days ago
+
+```sh
+$ find . –atime -2
+```
+
+Search for files that were changed less than 2 days ago
+
+```sh
+$ find . –ctime -2
+```
+
+#### Search based on file size
+
+Search file whose size is larger than 5MB size
+
+```sh
+$ find . –size +5M\
+```
+
+#### Search based on file permissions
+
+Find files with specific permission
+
+```sh
+$ find . –type f –perm 644
+```
+
+
+
