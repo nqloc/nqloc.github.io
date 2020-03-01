@@ -1,63 +1,54 @@
 ---
 layout: wiki
-title: Linux/Unix
-categories: Linux
-description: 类 Unix 系统下的一些常用命令和用法。
-keywords: Linux
+title: Useful Linux/Unix commands
+categories: Linux, Unix, Ubuntu
+description: Useful linux/unix commands
+keywords: Linux, Unix, Ubuntu
 ---
 
-类 Unix 系统下的一些常用命令和用法。
+Useful linux/unix commands
 
-## 实用命令
+### SCP (Secure Copy)
 
-### fuser
-
-查看文件被谁占用。
+Command
 
 ```sh
-fuser -u .linux.md.swp
+$ scp source_file_path destination_file_path
 ```
 
-### id
+The file path should include the full host address, port number, username and password
 
-查看当前用户、组 id。
-
-### lsof
-
-查看打开的文件列表。
-
-> An  open  file  may  be  a  regular  file,  a directory, a block special file, a character special file, an executing text reference, a library, a stream or a network file (Internet socket, NFS file or UNIX domain socket.)  A specific file or all the files in a file system may be selected by path.
-
-#### 查看网络相关的文件占用
+#### Copy a directory
 
 ```sh
-lsof -i
+$ scp -v -r ~/Downloads root@192.168.1.1:/root/Downloads
 ```
 
-#### 查看端口占用
+#### Transfer multiple files
 
 ```sh
-lsof -i tcp:5037
+$ scp foo.txt bar.txt username@remotehost:/path/directory/
 ```
-
-#### 查看某个文件被谁占用
+or
 
 ```sh
-lsof .linux.md.swp
+$ scp username@remotehost:/path/directory/\{foo.txt,bar.txt\} .
+
+$ scp root@192.168.1.3:~/\{abc.log,cde.txt\} .
 ```
 
-#### 查看某个用户占用的文件信息
+#### Copy files across 2 remote hosts
 
 ```sh
-lsof -u mazhuang
+$ scp user1@remotehost1:/some/remote/dir/foobar.txt user2@remotehost2:/some/remote/dir/
 ```
 
-`-u` 后面可以跟 uid 或 login name。
-
-#### 查看某个程序占用的文件信息
+#### Speed up the transfer with compression
 
 ```sh
-lsof -c Vim
+scp -vrC ~/Downloads root@192.168.1.3:/root/Downloads
 ```
 
-注意程序名区分大小写。
+### CP (Copy)
+
+### MV (Move)
