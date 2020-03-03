@@ -8,10 +8,10 @@ keywords: Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter, Json pars
 
 <div style="font-family: monospace;">
 	<h3 class="row">
-      <a href="javascript:void(0);" id="json" onclick="switchParser('json');">Json parser</a> | 
-      <a href="javascript:void(0);" id="xml" onclick="switchParser('xml');">Xml parser</a> | 
-      <a href="javascript:void(0);" id="css" onclick="switchParser('css');">CSS parser</a> | 
-      <a href="javascript:void(0);" id="sql" onclick="switchParser('sql');">SQL parser</a>
+      <a href="javascript:void(0);" id="json" onclick="switchParser('json');">Json Format</a> | 
+      <a href="javascript:void(0);" id="xml" onclick="switchParser('xml');">Xml Format</a> | 
+      <a href="javascript:void(0);" id="css" onclick="switchParser('css');">CSS Format</a> | 
+      <a href="javascript:void(0);" id="sql" onclick="switchParser('sql');">SQL Format</a>
     </h3>
     <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
