@@ -92,7 +92,9 @@ karaf_docker                           latest                fd6f500a7b09       
 
 ### 3. Deploy your apache karaf container
 
-Deploy the **karaf_docker** container by command **docker run karaf_docker -d**
+#### Deploy your apache karaf container by command
+
+Execute command **docker run karaf_docker -d**
 
 ```sh
 docker run karaf_docker -d
@@ -111,7 +113,7 @@ Hit '<ctrl-d>' or type 'system:shutdown' or 'logout' to shutdown Karaf.
 karaf@root()> 
 ```
 
-### Deploy your apache karaf container by docker-compose
+#### Deploy your apache karaf container by docker-compose
 
 Create a docker-compose file **karaf_docker.yml**
 
