@@ -3,6 +3,7 @@ layout: post
 title: Sardine A WebDav wrapper library for Java
 category: WebDAV
 tags: [WebDAV]
+active: false
 ---
 
 ## Account
