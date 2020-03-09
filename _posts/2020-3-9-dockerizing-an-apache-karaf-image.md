@@ -83,7 +83,7 @@ Successfully built fd6f500a7b09
 Successfully tagged karaf_docker:latest
 ```
 
-When the command completed successfully, we can check the new image 'karaf_docker' by command **docker images | grep karaf_docker**
+When the command completed successfully, we can check the new image 'karaf_docker' by command **`docker images | grep karaf_docker`**
 
 ```sh
 nqloc@localhost:~/xxx/karaf_docker$ docker images | grep karaf_docker
