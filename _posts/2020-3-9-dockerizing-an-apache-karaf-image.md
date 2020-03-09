@@ -5,13 +5,15 @@ category: Karaf, OSGI, Apache Karaf, Docker
 tags: [Karaf, OSGI, Apache Karaf, Docker]
 active: true
 ---
-## Download karaf from <http://karaf.apache.org/download.html>
 
-### Creating Dockerfile Karaf images
+
+### 1. Download karaf from <http://karaf.apache.org/download.html>
+
+### 2. Creating Dockerfile Karaf images
 
 #### Create a Dockerfile
 
-**Update the Dockerfile as bellow**
+Update the Dockerfile as bellow
 
 ```
 FROM java:8-jdk
@@ -88,7 +90,7 @@ nqloc@localhost:~/xxx/karaf_docker$ docker images | grep karaf_docker
 karaf_docker                           latest                fd6f500a7b09        2 minutes ago       692MB
 ```
 
-### Deploy your apache karaf container
+### 3. Deploy your apache karaf container
 
 Deploy the **karaf_docker** container by command **docker run karaf_docker -d**
 
@@ -130,14 +132,14 @@ services:
 
 Start the container by docker-compose. Execute command **docker-compose -f karaf_docker.yml up -d**
 
-Then you can check docker container by command **docker ps | grep karaf_docker**
+Then you can check docker container by command **`docker ps | grep karaf_docker`**
 
 ```sh
 docker ps | grep karaf_docker
 d35fe07b0493        karaf_docker        "/opt/karaf/bin/karaf"   2 minutes ago       Up 2 minutes        0.0.0.0:1099->1099/tcp, 0.0.0.0:8101->8101/tcp, 0.0.0.0:44444->44444/tcp   karaf_docker
 ```
 
-### Apache Karaf hot deploy
+### 4. Apache Karaf hot deploy
 
 (TBU)
 
