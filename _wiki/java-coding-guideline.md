@@ -4,6 +4,7 @@ title: Java Coding Guideline
 categories: Coding Guideline 
 description: Java Coding Guideline
 keywords: Java, Coding Guideline, Java Coding Guideline
+active: true
 ---
 
 **Table Of Contents**

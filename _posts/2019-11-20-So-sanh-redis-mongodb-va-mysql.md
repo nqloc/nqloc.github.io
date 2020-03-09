@@ -5,6 +5,7 @@ category: [Redis, MongoDB, MySQL]
 tags: [Redis]
 keywords: Redis, MySQL, MongoDB
 active: true
+language: vi
 ---
 
 Redis là 1 hệ thống lưu trữ key-value rất mạnh mẽ và phổ biến hiện nay.

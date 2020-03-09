@@ -2,8 +2,9 @@
 layout: wiki
 title: IntelliJ IDEA Tips & Tricks
 categories: Tools
-description: 最好用的 Java IDE
+description: IntelliJ IDEA Tips & Tricks
 keywords: IDEA, Java
+active: true
 ---
 
 # IntelliJ IDEA Tips & Tricks

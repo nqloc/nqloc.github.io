@@ -4,6 +4,7 @@ title: Formatter Online
 categories: [Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter]
 description: Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter, Json parser, Xml parser, CSS parser, SQL parser
 keywords: Json Formatter, Xml Formatter, CSS Formatter, SQL Formatter, Json parser, Xml parser, CSS parser, SQL parser
+active: true
 ---
 
 <div style="font-family: monospace;">

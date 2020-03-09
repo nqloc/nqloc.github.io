@@ -4,6 +4,7 @@ title: Dockerizing an Apache Karaf image
 category: [Karaf, OSGI, Apache Karaf, Docker]
 tags: [Karaf, OSGI, Apache Karaf, Docker]
 active: true
+language: en
 ---
 
 

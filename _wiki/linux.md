@@ -4,6 +4,7 @@ title: Useful Linux/Unix commands
 categories: Linux, Unix, Ubuntu
 description: Useful linux/unix commands
 keywords: Linux, Unix, Ubuntu
+active: true
 ---
 
 Useful linux/unix commands

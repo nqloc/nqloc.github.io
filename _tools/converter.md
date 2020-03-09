@@ -4,6 +4,7 @@ title: XML to JSON, JSON to XML converter
 categories: [JSON to XML converter, XML to JSON converter]
 description: XML to JSON, JSON to XML converter
 keywords: XML to JSON, JSON to XML, XML to JSON converter, JSON to XML converter, xml2json, json2xml, jsonToXml, xmlToJson
+active: true
 ---
 
 <div style="font-family: monospace;">

@@ -4,6 +4,7 @@ title: IntelliJ IDEA Shortcuts
 categories: Tools
 description: IntelliJ IDE Shortcuts
 keywords: IDEA, IntelliJ, Shortcuts
+active: true
 ---
 
 > Some useful shortcuts for IntelliJ IDEA

@@ -3,6 +3,8 @@ layout: post
 title: Redis là gì
 category: Redis
 tags: [Redis]
+active: true
+language: vi
 ---
 
 > Redis là 1 hệ thống lưu trữ key-value rất mạnh mẽ và phổ biến hiện nay.

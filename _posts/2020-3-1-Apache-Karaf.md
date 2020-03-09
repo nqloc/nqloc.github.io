@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Karaf
+title: Apache Karaf
 category: [Karaf, OSGI, Apache Karaf]
 tags: [Karaf, OSGI, Apache Karaf]
 active: true
+language: en
 ---
 
 > Apache Karaf is a small OSGi based runtime which provides a lightweight container onto which various components and applications can be deployed
