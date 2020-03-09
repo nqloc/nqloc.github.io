@@ -36,7 +36,7 @@ comments: false
         <div class="column two-thirds" >
             <ol class="repo-list">
                 {% for post in paginator.posts %}
-                {% if post.active != false %}
+                {% if post.active != "false" %}
                 <li class="repo-list-item">
                     <h3 class="repo-list-name">
                       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
