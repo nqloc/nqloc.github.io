@@ -12,7 +12,7 @@ permalink: /tools/
 
 <ul class="listing">
 {% for tools in site.tools %}
-{% if tools.title != "Tools Template" %}
+{% if tools.active != false %}
 <li class="listing-item"><a href="{{ site.url }}{{ tools.url }}">{{ tools.title }}</a></li>
 {% endif %}
 {% endfor %}
