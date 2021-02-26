@@ -110,16 +110,17 @@ gitment:
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
+    enable: true
     owner: nqloc
     repo: nqloc.github.io
     clientID: 3ef5e14b3792fb7f8760
     clientSecret: 291604fe977edca23ef0c3706faed10ba4bb48ac
-    proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
     perPage: 10
     pagerDirection: 'last'
     createIssueManually: false
     distractionFreeMode: false
     number: -1
+    proxy: https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token
 
 lazy_load_disqus : false
 
