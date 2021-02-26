@@ -35,12 +35,8 @@ navs:
     label: Categories
 
   -
-    href: /archives
-    label: Archives
-
-  -
     href: /wiki/
-    label: Wikis
+    label: Wiki
 
   -
     href: /tools/
@@ -110,16 +106,10 @@ gitment:
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    proxy: https://cors-corona.herokuapp.com/https://github.com/login/oauth/access_token
-    enable: true
     owner: nqloc
     repo: nqloc.github.io
     clientID: 3ef5e14b3792fb7f8760
     clientSecret: 291604fe977edca23ef0c3706faed10ba4bb48ac
-    perPage: 10
-    pagerDirection: 'last'
-    createIssueManually: false
-    distractionFreeMode: false
 
 lazy_load_disqus : false
 
