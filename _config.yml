@@ -76,6 +76,7 @@ gitalk:
   repo: nqloc.github.io
   clientID: 3ef5e14b3792fb7f8760
   clientSecret: 291604fe977edca23ef0c3706faed10ba4bb48ac
+  proxy: https://cors-corona.herokuapp.com/https://github.com/login/oauth/access_token
   
 lazy_load_disqus: false
 simple_jekyll_search:
