@@ -85,3 +85,5 @@ simple_jekyll_search:
   
 google:
   analytics_id: UA-153150119-1
+
+github: [metadata]
