@@ -42,7 +42,7 @@ quiet: false
 excerpt_separator: |+
 permalink: '/:year/:month/:day/:title/'
 
-gems:
+plugins:
   - jekyll-github-metadata
   - rouge
   - jekyll-paginate
