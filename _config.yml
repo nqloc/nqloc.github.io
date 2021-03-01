@@ -14,6 +14,7 @@ organization_url: null
 github_username: nqloc
 location: 'HCM, Vietnam'
 email: www.nqloc@gmail.com
+
 navs:
   - href: /
     label: Home
@@ -27,16 +28,20 @@ navs:
     label: Open-source
   - href: /about/
     label: About
+    
 subscribe_rss: /feed.xml
 markdown: kramdown
+
 kramdown:
   input: GFM
+  
 highlighter: rouge
 paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: |+
 permalink: '/:year/:month/:day/:title/'
+
 gems:
   - jekyll-github-metadata
   - rouge
@@ -44,6 +49,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jemoji
+  
 collections:
   wiki:
     output: true
@@ -51,24 +57,30 @@ collections:
   tools:
     output: true
     permalink: '/tools/:path/'
+    
 repository: nqloc
 comments_provider: gitalk
+
 disqus:
   username: disqus_2fTSrpS4ME
+  
 gitment:
   owner: nqloc
   repo: nqloc.github.io
   oauth:
     client_id: 3ef5e14b3792fb7f8760
     client_secret: 291604fe977edca23ef0c3706faed10ba4bb48ac
+    
 gitalk:
   owner: nqloc
   repo: nqloc.github.io
   clientID: 3ef5e14b3792fb7f8760
   clientSecret: 291604fe977edca23ef0c3706faed10ba4bb48ac
+  
 lazy_load_disqus: false
 simple_jekyll_search:
   fulltext: false
   limit: 15
+  
 google:
   analytics_id: UA-153150119-1
