@@ -1,3 +1,14 @@
+---
+layout: post
+title: Common regex
+category: regex
+tags: [regex]
+active: true
+language: en
+---
+
+> **Comman Regex**
+
 ## Password
 
 ^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8}$
