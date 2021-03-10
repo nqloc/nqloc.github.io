@@ -82,18 +82,16 @@ active: true
 
 *Italics*
 
-### Header
+### Heading
 
-```
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-```
-
-Tips: `#` Add spaces to the middle of the title.
+| Markdown | HTML | Rendered Output |
+| ------- | :------ | :-----: |
+| ```# Heading level 1``` | ```<h1>Heading level 1</h1>``` | <h1>Heading level 1</h1> |
+| ```## Heading level 2``` | ```<h2>Heading level 2</h2>``` | <h2>Heading level 2</h2> |
+| ```### Heading level 3``` | ```<h3>Heading level 3</h3>``` | <h3>Heading level 3</h3> |
+| ```#### Heading level 4``` | ```<h4>Heading level 4</h4>``` | <h4>Heading level 4</h4> |
+| ```##### Heading level 5``` | ```<h5>Heading level 5</h5>``` | <h5>Heading level 5</h5> |
+| ```###### Heading level 6``` | ```<h6>Heading level 6</h6>``` | <h6>Heading level 6</h6> |
 
 ### Table
 
@@ -124,6 +122,34 @@ print 'Hello, World!'
    ```python
    print 'hello'
    ```
+   
+### Blockquotes
+
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+```
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+```
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+```
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
 ### Image
 
