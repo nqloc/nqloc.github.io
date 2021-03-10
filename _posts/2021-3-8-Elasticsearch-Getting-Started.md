@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elasticsearch: Getting Started
+title: Elasticsearch Getting Started
 category: Elasticsearch
 tags: [Elasticsearch]
 active: true
@@ -121,7 +121,6 @@ Indexing is the process of adding data to Elasticsearch.
 ## Elasticsearch Querying
 
 ## Removing Elasticsearch Data
-
 
 ## Summary
 
