@@ -7,7 +7,7 @@ active: true
 language: en
 ---
 
-> **WebDav** Initially released in 2010, Elasticsearch (sometimes dubbed ES) is a modern search and analytics engine which is based on Apache Lucene content authoring operations.
+> **Elasticsearch** Initially released in 2010, Elasticsearch (sometimes dubbed ES) is a modern search and analytics engine which is based on Apache Lucene content authoring operations.
 
 ## What is Elasticsearch?
 * A modern search and analytics engine which is based on Apache Lucene
