@@ -747,7 +747,7 @@ textarea#input, textarea#output {
 }
 
 /* css for the shiny buttons */
-.btn {
+.tool_btn {
   cursor: pointer;
   margin: 5px;
   border-radius: 5px;
@@ -761,65 +761,65 @@ textarea#input, textarea#output {
   display: inline-block;
 }
 
-.btn:hover {
+.tool_btn:hover {
   cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
 }
-.blue {
+.tool_blue {
   color: #55acee;
   border: 2px #55acee solid;
 }
 
-.blue:hover {
+.tool_blue:hover {
   background-color: #55acee;
   color: #fff
 }
 
-.green {
+.tool_green {
   color: #2ecc71;
   border: 2px #2ecc71 solid;
 }
 
-.green:hover {
+.tool_green:hover {
   color: #fff;
   background-color: #2ecc71;
 }
 
-.red {
+.tool_red {
   color: #e74c3c;
   border: 2px #e74c3c solid;
 }
 
-.red:hover {
+.tool_red:hover {
   color: #fff;
   background-color: #e74c3c;
 }
 
-.purple {
+.tool_purple {
   color: #9b59b6;
   border: 2px #9b59b6 solid;
 }
 
-.purple:hover {
+.tool_purple:hover {
   color: #fff;
   background-color: #9b59b6;
 }
 
-.orange {
+.tool_orange {
   color: #e67e22;
   border: 2px #e67e22 solid;
 }
 
-.orange:hover {
+.tool_orange:hover {
   color: #fff;
   background-color: #e67e22;
 }
 
-.yellow {
+.tool_yellow {
   color: #f1c40f;
   border: 2px #f1c40f solid;
 }
 
-.yellow:hover {
+.tool_yellow:hover {
   color: #fff;
   background-color: #f1c40f;
 }
