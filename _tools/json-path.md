@@ -14,7 +14,7 @@ active: true
     <div class="row" style="margin: 5px 0;">
         <button class="tool_btn tool_blue" onclick="find()">Find</button>
         <button class="tool_btn tool_green" onclick="copyData('input')" data-toggle="tooltip" title="Copy to clipboard">Copy Input</button>
-        <button class="tool_btn tool_orange" onclick="addSample()">Sample</button>
+        <button class="tool_btn tool_orange" onclick="loadSample()">Load Sample</button>
         <button class="tool_btn tool_red" onclick="clearInput()">Clear Input</button>
         <button class="tool_btn tool_red" onclick="clearAll()">Clear All</button>
     </div>
@@ -29,12 +29,56 @@ active: true
 <script type="text/javascript" src="{{ site.url }}/assets/js/jsonpath.js"></script>
 
 <script type = "text/javascript" >
-    var input = document.getElementById("input").value;
-    var syntax = document.getElementById("syntax").value;
-    if (input && "" !== input.trim()) {
-        var result = JSONPath.JSONPath({path: syntax, json: input});
-        document.getElementById("output").innerHTML = JSON.stringify(result, null, 2);
-    } else {
-        document.getElementById("output").value = "Input value is empty"
+    var find = () => {
+        var input = document.getElementById("input").value;
+        var syntax = document.getElementById("syntax").value;
+        if (input && "" !== input.trim()) {
+            var result = JSONPath.JSONPath({path: syntax, json: input});
+            document.getElementById("output").innerHTML = JSON.stringify(result, null, 2);
+        } else {
+            document.getElementById("output").value = "Input value is empty"
+        }
+    }
+    
+    var loadSample = () => {
+        document.getElementById("syntax").innerHTML = '$.phoneNumbers[?(@.type)].type'
+        var json = '{
+                      "firstName": "John",
+                      "lastName" : "doe",
+                      "age"      : 26,
+                      "address"  : {
+                        "streetAddress": "naist street",
+                        "city"         : "Nara",
+                        "postalCode"   : "630-0192"
+                      },
+                      "phoneNumbers": [
+                        {
+                          "type"  : "iPhone",
+                          "number": "0123-4567-8888"
+                        },
+                        {
+                          "type"  : "home",
+                          "number": "0123-4567-8910"
+                        }
+                      ]
+                    }';
+        document.getElementById("input").innerHTML = JSON.stringify(JSON.parse(json), null, 2);
+    }
+    
+    var copyData = e => {
+        var t = document.getElementById(e);
+        t.select(), t.setSelectionRange(0, 99999), document.execCommand("copy")
+    }
+    
+    var clearInput = () => {
+        document.getElementById("input").value = ""
+    }
+    
+    var clearOutput = () => {
+        document.getElementById("output").value = ""
+    }
+    
+    var clearAll = () => {
+        clearOutput(), clearInput()
     }
 </script>
