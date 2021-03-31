@@ -12,6 +12,7 @@ active: true
         <h3>JSONPath Syntax</h3>
         <input id="syntax" placeholder="Put JSONPath syntax"/>
     </div>
+    
     <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
         <button class="btn-outline" onclick="find()">Find</button>
@@ -19,6 +20,7 @@ active: true
         <button class="btn-outline" onclick="clearInput()">Clear Input</button>
         <button class="btn-outline" onclick="clearAll()">Clear All</button>
     </div>
+    
     <textarea lang="xml" readonly class="row" rows="12" id="output" name="output" placeholder="Output" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
         <button class="btn-outline" onclick="copyData('output')" data-toggle="tooltip" title="Copy to clipboard">Copy Output</button>
