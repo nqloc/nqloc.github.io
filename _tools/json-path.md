@@ -25,3 +25,16 @@ active: true
         <button class="tool_btn tool_red" onclick="clearOutput()">Clear Output</button>
     </div>
 </div>
+
+<script type="text/javascript" src="{{ site.url }}/assets/js/jsonpath.js"></script>
+
+<script type = "text/javascript" >
+    var input = document.getElementById("input").value;
+    var syntax = document.getElementById("syntax").value;
+    if (input && "" !== input.trim()) {
+        var result = JSONPath.JSONPath({path: syntax, json: input});
+        document.getElementById("output").innerHTML = JSON.stringify(result, null, 2);
+    } else {
+        document.getElementById("output").value = "Input value is empty"
+    }
+</script>
