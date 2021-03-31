@@ -34,7 +34,7 @@ active: true
         var syntax = document.getElementById("syntax").value;
         if (input && "" !== input.trim()) {
             var result = JSONPath.JSONPath({path: syntax, json: input});
-            document.getElementById("output").innerHTML = JSON.stringify(result, null, 2);
+            document.getElementById("output").innerHTML = JSON.stringify(result, null, 4);
         } else {
             document.getElementById("output").value = "Input value is empty"
         }
@@ -43,7 +43,7 @@ active: true
     var loadSample = () => {
         document.getElementById("syntax").value = '$.phoneNumbers[?(@.type)].type'
         var json = '{"firstName":"John","lastName":"doe","age":26,"address":{"streetAddress":"naist street","city":"Nara","postalCode":"630-0192"},"phoneNumbers":[{"type":"iPhone","number":"0123-4567-8888"},{"type":"home","number":"0123-4567-8910"}]}';
-        document.getElementById("input").value = JSON.stringify(JSON.parse(json), null, 2);
+        document.getElementById("input").value = JSON.stringify(JSON.parse(json), null, 4);
     }
     
     var copyData = e => {
@@ -52,6 +52,7 @@ active: true
     }
     
     var clearInput = () => {
+        document.getElementById("syntax").value = ""
         document.getElementById("input").value = ""
     }
     
