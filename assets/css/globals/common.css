@@ -749,11 +749,8 @@ textarea#input, textarea#output {
 /* css for the shiny buttons */
 .tool_btn {
   cursor: pointer;
-  margin: 5px;
-  border-radius: 5px;
   text-decoration: none;
   padding: 5px;
-  font-size: 22px;
   transition: .3s;
   -webkit-transition: .3s;
   -moz-transition: .3s;
