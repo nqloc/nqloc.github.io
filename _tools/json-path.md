@@ -10,7 +10,7 @@ active: true
 <div style="font-family: monospace;">
     <input class="row" id="syntax" type="text" placeholder="Put JSONPath syntax" onchange="find();" onkeyup="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" style="white-space: pre; width: 100%; margin: 5px 0;">
     
-    <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
+    <textarea class="row" rows="18" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
         <button class="tool_btn tool_blue" onclick="find()">Find</button>
         <button class="tool_btn tool_green" onclick="copyData('input')" data-toggle="tooltip" title="Copy to clipboard">Copy Input</button>
@@ -19,7 +19,7 @@ active: true
         <button class="tool_btn tool_red" onclick="clearAll()">Clear All</button>
     </div>
     
-    <textarea lang="xml" readonly class="row" rows="12" id="output" name="output" placeholder="Output" style="white-space: pre; width: 100%;"></textarea>
+    <textarea lang="xml" readonly class="row" rows="6" id="output" name="output" placeholder="Output" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
         <button class="tool_btn tool_green" onclick="copyData('output')" data-toggle="tooltip" title="Copy to clipboard">Copy Output</button>
         <button class="tool_btn tool_red" onclick="clearOutput()">Clear Output</button>
