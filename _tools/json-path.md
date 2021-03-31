@@ -8,7 +8,7 @@ active: true
 ---
 
 <div style="font-family: monospace;">
-    <input class="row" id="syntax" type="text" placeholder="Put JSONPath syntax" style="white-space: pre; width: 100%; margin: 5px 0;">
+    <input class="row" id="syntax" type="text" placeholder="Put JSONPath syntax" onchange="find();" onkeyup="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();" style="white-space: pre; width: 100%; margin: 5px 0;">
     
     <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
@@ -33,7 +33,7 @@ active: true
         var input = document.getElementById("input").value;
         var syntax = document.getElementById("syntax").value;
         if (input && "" !== input.trim()) {
-            var result = JSONPath.JSONPath({path: syntax, json: input});
+            var result = JSONPath.JSONPath({path: syntax, json: JSON.parse(input)});
             document.getElementById("output").innerHTML = JSON.stringify(result, null, 4);
         } else {
             document.getElementById("output").value = "Input value is empty"
