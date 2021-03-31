@@ -8,10 +8,7 @@ active: true
 ---
 
 <div style="font-family: monospace;">
-    <div class="row" style="margin: 5px 0;">
-        <h3>JSONPath Syntax</h3>
-        <input id="syntax" type="text" placeholder="Put JSONPath syntax" style="white-space: pre; width: 100%;">
-    </div>
+    <input class="row" id="syntax" type="text" placeholder="Put JSONPath syntax" style="white-space: pre; width: 100%; margin: 5px 0;">
     
     <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
     <div class="row" style="margin: 5px 0;">
