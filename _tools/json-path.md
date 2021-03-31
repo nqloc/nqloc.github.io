@@ -8,18 +8,20 @@ active: true
 ---
 
 <div style="font-family: monospace;">
-	<h3 class="row">JSONPath Syntax</h3>
-  <input id="syntax" class="form-control" placeholder="Put JSONPath syntax" value="$.phoneNumbers[:1].type">
-	<textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
-	<div class="row" style="margin: 5px 0;">
-		<button class="btn-outline" onclick="find()">Find</button>
-		<button class="btn-outline" onclick="copyData('input')" data-toggle="tooltip" title="Copy to clipboard">Copy Input</button>
-		<button class="btn-outline" onclick="clearInput()">Clear Input</button>
-		<button class="btn-outline" onclick="clearAll()">Clear All</button>
-	</div>
-	<textarea lang="xml" readonly class="row" rows="12" id="output" name="output" placeholder="Output" style="white-space: pre; width: 100%;"></textarea>
-	<div class="row" style="margin: 5px 0;">
-		<button class="btn-outline" onclick="copyData('output')" data-toggle="tooltip" title="Copy to clipboard">Copy Output</button>
-		<button class="btn-outline" onclick="clearOutput()">Clear Output</button>
-	</div>
+    <div class="row" style="margin: 5px 0;">
+        <h3>JSONPath Syntax</h3>
+        <input id="syntax" placeholder="Put JSONPath syntax"/>
+    </div>
+    <textarea class="row" rows="12" id="input" name="input" placeholder="Input" style="white-space: pre; width: 100%;"></textarea>
+    <div class="row" style="margin: 5px 0;">
+        <button class="btn-outline" onclick="find()">Find</button>
+        <button class="btn-outline" onclick="copyData('input')" data-toggle="tooltip" title="Copy to clipboard">Copy Input</button>
+        <button class="btn-outline" onclick="clearInput()">Clear Input</button>
+        <button class="btn-outline" onclick="clearAll()">Clear All</button>
+    </div>
+    <textarea lang="xml" readonly class="row" rows="12" id="output" name="output" placeholder="Output" style="white-space: pre; width: 100%;"></textarea>
+    <div class="row" style="margin: 5px 0;">
+        <button class="btn-outline" onclick="copyData('output')" data-toggle="tooltip" title="Copy to clipboard">Copy Output</button>
+        <button class="btn-outline" onclick="clearOutput()">Clear Output</button>
+    </div>
 </div>
