@@ -28,8 +28,8 @@ active: true
 
 <script type="text/javascript" src="{{ site.url }}/assets/js/jsonpath.js"></script>
 
-<script type = "text/javascript" >
-    var find = () => {
+<script type = "text/javascript">
+    function find() {
         var input = document.getElementById("input").value;
         var syntax = document.getElementById("syntax").value;
         if (input && "" !== input.trim()) {
@@ -41,28 +41,9 @@ active: true
     }
     
     var loadSample = () => {
-        document.getElementById("syntax").innerHTML = '$.phoneNumbers[?(@.type)].type'
-        var json = '{
-                      "firstName": "John",
-                      "lastName" : "doe",
-                      "age"      : 26,
-                      "address"  : {
-                        "streetAddress": "naist street",
-                        "city"         : "Nara",
-                        "postalCode"   : "630-0192"
-                      },
-                      "phoneNumbers": [
-                        {
-                          "type"  : "iPhone",
-                          "number": "0123-4567-8888"
-                        },
-                        {
-                          "type"  : "home",
-                          "number": "0123-4567-8910"
-                        }
-                      ]
-                    }';
-        document.getElementById("input").innerHTML = JSON.stringify(JSON.parse(json), null, 2);
+        document.getElementById("syntax").value = '$.phoneNumbers[?(@.type)].type'
+        var json = '{"firstName":"John","lastName":"doe","age":26,"address":{"streetAddress":"naist street","city":"Nara","postalCode":"630-0192"},"phoneNumbers":[{"type":"iPhone","number":"0123-4567-8888"},{"type":"home","number":"0123-4567-8910"}]}';
+        document.getElementById("input").value = JSON.stringify(JSON.parse(json), null, 2);
     }
     
     var copyData = e => {
