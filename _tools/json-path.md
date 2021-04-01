@@ -34,7 +34,7 @@ active: true
         var syntax = document.getElementById("syntax").value;
         if (input && "" !== input.trim()) {
             var result = JSONPath.JSONPath({path: syntax, json: JSON.parse(input)});
-            document.getElementById("output").innerHTML = JSON.stringify(result, null, 4);
+            document.getElementById("output").value = JSON.stringify(result, null, 4);
         } else {
             document.getElementById("output").value = "Input value is empty"
         }
